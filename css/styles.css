@@ -422,7 +422,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgb(0, 0, 0);
 }
 
 small,
@@ -10007,11 +10007,17 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #000000;
+  border-color: #fff;
 }
 
 hr.light {
   border-color: #fff;
+}
+
+hr.dividerblack {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #000;
 }
 
 .btn {
